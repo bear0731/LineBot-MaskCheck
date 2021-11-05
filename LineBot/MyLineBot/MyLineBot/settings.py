@@ -15,9 +15,12 @@ from pathlib import Path
 LINE_CHANNEL_ACCESS_TOKEN = 'r5/Vu3T6AR2eQ0DD9HXZ7uyE6FV771JtnDKhXntw1OuX/Oo5y+Eg+hAGjyCf3tUuZqBuCnE/D0S641IYpZC8Woz5xGSiVdkvsdbG937t02ZPKzQVkEDHVdfWwp3oenNQpCiol+THGcgZr5H65ORFvQdB04t89/1O/w1cDnyilFU='
 
 LINE_CHANNEL_SECRET = 'aeb886e2de24b382008b3b6a335016e8'
+
+LINE_CHANNEL_ID='Ua240bb35c5d143edbc78b708249be7c4'
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+USER_ID=[]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -29,9 +32,7 @@ SECRET_KEY = 'django-insecure-4m5#nun1#^6ls!k@0m2r7(em_ak!h52r7)0%sggf+7%r1vz=a0
 DEBUG = True
 
 ALLOWED_HOSTS = [ 
-
-    '2620-1-200-39-242.ngrok.io'
-    
+    '6df4-59-124-229-253.ngrok.io'
 ]
 
 

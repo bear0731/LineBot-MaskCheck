@@ -1,0 +1,30 @@
+{
+    "allUserId":
+    [
+        "Ua240bb35c5d143edbc78b708249be7c4",
+        "U7a303f3aeb8397e111d4351c9591c28c"
+    ],
+    "group":
+    {      
+        "program":
+            {
+                "manager":["managerId"],
+                "staff":["staff1Id","staff2Id"],   
+                "staffName":["staff1Name","staff2Name"]
+            },            
+        "sell":
+            {
+            "manager":["managerId"],
+            "staffId":["staff1Id","staff2Id"],
+            "staffName":["staff1Name","staff2Name"] 
+            },  
+        "boxing":
+            {
+                "manager":["managerId"],
+                "staff":["staff1Id","staff2Id"],
+                "staffName":["staff1Name","staff2Name"]    
+            }       
+    }
+}   
+
+    
