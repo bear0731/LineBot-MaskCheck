@@ -14,23 +14,24 @@ class manageUserInformation():
 
             #   add id in allId
             if  id in self.jdata["allUserId"]:
-                json.dump(self.jdata,jfile,indent=4)            
+                pass            
             else:
                 self.jdata["allUserId"].append(id)                
-                json.dump(self.jdata,jfile,indent=4)
+                
 
             #   add name in staffName
             if  name in self.jdata["group"][group]["staffName"]:
-                json.dump(self.jdata,jfile,indent=4)            
+                pass            
             else:
-                self.jdata["group"][group][name].append(name)                
-                json.dump(self.jdata,jfile,indent=4)
+                self.jdata["group"][group]["staffName"].append(name)                
+                
 
             #   add id in staffId
             if  id in self.jdata["group"][group]["staffId"]:
-                json.dump(self.jdata,jfile,indent=4)            
+                pass            
             else:
-                self.jdata["group"][group][id].append(id)                
-                json.dump(self.jdata,jfile,indent=4)
+                self.jdata["group"][group]["staffId"].append(id) 
+
+            json.dump(self.jdata,jfile,indent=4)
             
         

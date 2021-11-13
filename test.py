@@ -1,5 +1,7 @@
-a=[1,2,3]
-if 4 in a:
-    print("yes")
-else:
-    print("no")
+import json
+import os
+with open('.\\a.json','r',encoding='utf8') as f:
+    jdata=json.load(f)
+    for i in jdata["group"]:
+        print(i)
+
